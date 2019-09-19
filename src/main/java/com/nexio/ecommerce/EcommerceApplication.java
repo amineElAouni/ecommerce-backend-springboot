@@ -16,13 +16,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class EcommerceApplication implements CommandLineRunner {
 
     @Autowired
-    private ProduitRepository produitRepository;
-
-    @Autowired
     private CatalogueRepository catalogueRepository;
-
-    @Autowired
-    private PanierService panierService;
 
     @Autowired
     private UserRepository userRepository;
